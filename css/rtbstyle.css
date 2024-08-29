@@ -1,0 +1,69 @@
+
+
+
+
+
+
+#titleText h1 {
+	font-family: "New Amsterdam", sans-serif;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	margin: 0 !important;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	font-size: 250px;
+	line-height: 200px;
+	font weight: 100;
+	word-spacing: -10px;
+	color: #0b161c;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+
+
+/*text styles*/
+a {
+	margin-top: 0;
+	font-family: 'Quicksand', sans-serif;
+	color: #555;
+}
+a:hover, a:focus {
+	text-decoration: none;
+	color: #000;
+}
+
+
+
+/* Navigation Bar */
+.navbar {
+  padding: 8px;
+	color: black;
+  border-bottom: 1px solid;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+	text-align: center;
+	font-size: 100px;
+}
+.navbar a {
+	color: #0b161c;
+}
+.navbar a:hover {
+	  color: #0e3145;
+}
+
+
+
+/* Background video*/
+#backgroundVideo {
+	position: fixed;
+  left: 50vw;
+  top: 50vh;
+  transform: translate(-50%, -50%);
+	min-width: 100%;
+  min-height: 101%;
+}
