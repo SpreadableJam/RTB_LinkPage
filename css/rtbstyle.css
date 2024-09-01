@@ -60,12 +60,22 @@ a:hover, a:focus {
 
 /* Background video*/
 #backgroundVideo {
-	position: absolute;
-	margin: 0;
+	position: fixed;
+	object-fit: cover;
 	z-index: -1;
   left: 50vw;
   top: 50vh;
   transform: translate(-50%, -50%);
 	min-width: 100%;
   min-height: 120%;
+}
+
+@media (max-width: 750px) {
+   #background-video {
+      display: none;
+   }
+   body {
+      background: url("img/RTB_BMV.gif") no-repeat;
+      background-size: cover;
+   }
 }
