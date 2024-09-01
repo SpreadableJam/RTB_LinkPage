@@ -55,7 +55,7 @@ a:hover, a:focus {
 	color: #E7E3DE;
 }
 .navbar a:hover {
-	  color: #0e3145;
+	  color: #C6CEE8;
 }
 
 /* Background video*/
@@ -72,8 +72,11 @@ a:hover, a:focus {
 
 body{
 	height: 500px;
-	background-position: center;
 	background-repeat: repeat;
 	background-size: 500px;
 	position: relative;
+/*for not tiled
+background-position: center;
+*/
+
 }
