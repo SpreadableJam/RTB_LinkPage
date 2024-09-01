@@ -17,7 +17,7 @@
 	line-height: 110px;
 	font weight: 100;
 	word-spacing: -10px;
-	color: #0b161c;
+	color: #E7E3DE;
 	left: 0;
 	right: 0;
 	top: 0;
@@ -52,7 +52,7 @@ a:hover, a:focus {
 	font-size: 80px;
 }
 .navbar a {
-	color: #0b161c;
+	color: #E7E3DE;
 }
 .navbar a:hover {
 	  color: #0e3145;
@@ -70,12 +70,10 @@ a:hover, a:focus {
   min-height: 120%;
 }
 
-@media (max-width: 750px) {
-   #background-video {
-      display: none;
-   }
-   body {
-      background: url("img/RTB_BMV.gif") no-repeat;
-      background-size: cover;
-   }
+body{
+	height: 500px;
+	background-position: center;
+	background-repeat: repeat;
+	background-size: 500px;
+	position: relative;
 }
