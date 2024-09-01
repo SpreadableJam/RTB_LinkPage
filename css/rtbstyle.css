@@ -10,11 +10,11 @@
 	display: flex;
 	justify-content: center;
 	margin: 0 !important;
-	padding-left: 200px;
-	padding-right: 200px;
+	padding-left: 80px;
+	padding-right: 80px;
 	padding-top: 10px;
-	font-size: 250px;
-	line-height: 200px;
+	font-size: 150px;
+	line-height: 110px;
 	font weight: 100;
 	word-spacing: -10px;
 	color: #0b161c;
