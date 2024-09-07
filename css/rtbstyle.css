@@ -12,27 +12,24 @@ br {
    margin: 15px 0;
 }
 
-.Title {
-	width: 65%;
-	margin:auto;
-	position: static;
-
-	display: flex;
-	justify-content: center;
+.container {
+	max-width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #titleText h1 {
 	font-family: "New Amsterdam", sans-serif;
-	position: fixed;
+	position: static;
 	display: flex;
 
 	margin: 0 !important;
-		justify-content: center;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-top: 50px;
-	font-size:calc(90px + 5vw);
-	line-height: 110px;
+	padding-top: 30px;
+	padding-bottom: 70px;
+	font-size: 125px;
+	line-height: 95px;
 	font weight: 100;
 	word-spacing: -10px;
 	color: #E7E3DE;
