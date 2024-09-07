@@ -41,7 +41,7 @@ a:hover, a:focus {
 	width: 75%;
 	margin:auto;
 	position: static;
-	left: 0;
+
 	display: flex;
 	justify-content: center;
 }
@@ -52,9 +52,9 @@ img {
 	border-radius: 8px;
 }
 
-iframe {
+#focus iframe {
 	max-width: 100%;
-	height: auto;
+	max-height: 315px;
 	border-radius: 8px;
 }
 
