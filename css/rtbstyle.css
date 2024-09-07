@@ -51,6 +51,13 @@ img {
 	height: auto;
 	border-radius: 8px;
 }
+
+iframe {
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+
 #focus p {
 	color: #E7E3DE;
 	position: static;
@@ -76,9 +83,11 @@ img {
 .navbar a {
 	color: #E7E3DE;
 }
+/*
 .navbar a:hover {
 	  color: #C6CEE8;
 }
+*/
 
 /* Background video*/
 #backgroundVideo {
