@@ -1,3 +1,18 @@
+body{
+	height: 500px;
+	background-repeat: repeat;
+	background-size: 500px;
+	position: relative;
+	background-attachment: fixed;
+/*for not tiled
+background-position: center;
+*/
+}
+
+br {
+   margin: 15px 0;
+}
+
 .container {
 	max-width: fit-content;
 	margin-left: auto;
@@ -99,16 +114,4 @@ img {
   transform: translate(-50%, -50%);
 	min-width: 100%;
   min-height: 120%;
-}
-
-body{
-	height: 500px;
-	background-repeat: repeat;
-	background-size: 500px;
-	position: relative;
-	background-attachment: fixed;
-/*for not tiled
-background-position: center;
-*/
-
 }
