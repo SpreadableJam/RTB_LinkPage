@@ -12,10 +12,10 @@
 	margin: 0 !important;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-top: 50px;
-	padding-bottom: 75px;
+	padding-top: 30px;
+	padding-bottom: 70px;
 	font-size: 125px;
-	line-height: 85px;
+	line-height: 95px;
 	font weight: 100;
 	word-spacing: -10px;
 	color: #E7E3DE;
@@ -38,7 +38,7 @@ a:hover, a:focus {
 /*ImageBlocks*/
 
 .ImageBlocks{
-	width: 75%;
+	width: 65%;
 	margin:auto;
 	position: static;
 
