@@ -27,8 +27,27 @@ br {
 	padding-left: 35px;
 	padding-right: 35px;
 	padding-top: 30px;
+	padding-bottom: 0px;
+	font-size: 100px;
+	line-height: 95px;
+	font weight: 100;
+	word-spacing: -10px;
+	color: #E7E3DE;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+#titleText h2 {
+	font-family: "New Amsterdam", sans-serif;
+	position: static;
+	display: flex;
+
+	margin: 0 !important;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 0px;
 	padding-bottom: 70px;
-	font-size: 125px;
+	font-size: 150px;
 	line-height: 95px;
 	font weight: 100;
 	word-spacing: -10px;
