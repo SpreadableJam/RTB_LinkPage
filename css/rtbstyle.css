@@ -1,13 +1,4 @@
-body{
-	height: 500px;
-	background-repeat: repeat;
-	background-size: 500px;
-	position: relative;
-	background-attachment: fixed;
-/*for not tiled
-background-position: center;
-*/
-}
+/*body*/
 br {
    margin: 15px 0;
 }
@@ -19,6 +10,22 @@ br {
 	align-items: center;
 }
 
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+		min-height: 100%;
+		overflow:hidden;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translateX(-50%) translateY(-50%);
+  	background-size: cover;
+	  -webkit-backface-visibility: hidden;
+}
+
+/*title*/
 #titleText h1 {
 	font-family: "New Amsterdam", sans-serif;
 	position: static;
@@ -66,7 +73,6 @@ a:hover, a:focus {
 }
 
 /*ImageBlocks*/
-
 .ImageBlocks{
 	width: 65%;
 	margin:auto;
@@ -98,7 +104,6 @@ img {
 
 /* Navigation Bar */
 .navbar {
-  padding-top: 8px;
 	padding-bottom: 8px;
 	color: black;
   position: fixed;
@@ -113,36 +118,3 @@ img {
 .navbar a {
 	color: #E7E3DE;
 }
-/*
-.navbar a:hover {
-	  color: #C6CEE8;
-}
-*/
-
-video {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-		min-height: 100%;
-		overflow:hidden;
-    width: auto;
-    height: auto;
-    z-index: -1;
-    transform: translateX(-50%) translateY(-50%);
-  	background-size: cover;
-	  -webkit-backface-visibility: hidden;
-}
-
-/* Background video
-#backgroundVideo {
-	position: fixed;
-	object-fit: cover;
-	z-index: -1;
-  left: 50vw;
-  top: 50vh;
-  transform: translate(-50%, -50%);
-	min-width: 100%;
-  min-height: 120%;
-}
-*/
